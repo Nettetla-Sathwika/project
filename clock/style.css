@@ -1,0 +1,32 @@
+#container{
+    height: 50vw;
+    width: 50vw;
+    background-size:100%;
+    position: relative;
+    margin: auto;
+    background-image:url(img.png)
+}
+#hours,#minutes,#seconds{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hours{
+    width:2.5%;
+    height: 20%;
+    top:30%;
+    left:49%;
+}
+#minutes{
+    width: 2%;
+    height: 25%;
+    top:25%;
+    left:48.5%;
+}
+#seconds{
+    width: 1%;
+    height: 30%;
+    top:21%;
+    left:48.5%;
+}
